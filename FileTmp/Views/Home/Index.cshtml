@@ -1,0 +1,71 @@
+﻿<div ng-app="app-test" ng-controller="testAppController as vm">
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" ng-model="vm.dataIn.firstname">
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" ng-model="vm.dataIn.lastname">
+
+    <button ng-click="vm.addData()">Add</button>
+    <br />
+    <h4>Data Out:</h4>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr ng-repeat="data in vm.dataOut">
+            <td>{{ data.firstName }}</td>
+            <td>{{ data.lastName }}</td>
+        </tr>
+    </table>
+
+
+</div>
+
+@section Scripts{
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script>var app = angular.module("app-test", []);
+
+        app.controller("testAppController", function ($scope, $http, $timeout, $window) {
+            var vm = this;
+
+            vm.dataIn = {};
+            vm.dataOut = [];
+
+            console.log("test");
+
+            vm.addData = function () {
+
+                var apiUrl = "Api/Data/AddData";
+                vm.isBusy = true;
+                $http({
+                    method: 'put',
+                    headers: {
+                        "Content-Type": "application/json",
+                        
+                    },
+                    url: apiUrl,
+                    data: vm.dataIn
+                })
+                    .then(function (response) {
+
+                        if (response) {
+                            console.log(response.data);
+                            vm.dataOut.push(response.data);
+                            vm.dataIn = {};
+
+                        }
+
+                    }, function (err) {
+                        console.log(err);
+
+                        vm.errorMessage = "Failed to return data";
+                        vm.successMessage = null;
+                    }).finally(function () {
+                        vm.isBusy = false;
+                    });
+            }
+
+            
+        });</script>
+}
