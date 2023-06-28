@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/franco/Projects/FileTmp/FileTmp/FileTmp.csproj": {}
+    "/Users/franco/Projects/angularjsTemplate/FileTmp/FileTmp.csproj": {}
   },
   "projects": {
-    "/Users/franco/Projects/FileTmp/FileTmp/FileTmp.csproj": {
+    "/Users/franco/Projects/angularjsTemplate/FileTmp/FileTmp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/franco/Projects/FileTmp/FileTmp/FileTmp.csproj",
+        "projectUniqueName": "/Users/franco/Projects/angularjsTemplate/FileTmp/FileTmp.csproj",
         "projectName": "FileTmp",
-        "projectPath": "/Users/franco/Projects/FileTmp/FileTmp/FileTmp.csproj",
+        "projectPath": "/Users/franco/Projects/angularjsTemplate/FileTmp/FileTmp.csproj",
         "packagesPath": "/Users/franco/.nuget/packages/",
-        "outputPath": "/Users/franco/Projects/FileTmp/FileTmp/obj/",
+        "outputPath": "/Users/franco/Projects/angularjsTemplate/FileTmp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/franco/.nuget/NuGet/NuGet.Config"
@@ -39,6 +39,40 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.17.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
