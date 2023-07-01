@@ -1,0 +1,753 @@
+﻿
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+//---------HEADER---------------------------
+#Header_div {
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#Header_div {
+    border-left: 6px solid blue;
+    width: 100px;
+    height: 40px;
+    background: lightgray;
+}
+
+#Header_div {
+    background-color: (rgb(243, 239, 239));
+    width: 60%;
+    min-height: 40px;
+    margin: auto;
+}
+
+#lblPRODUCTX {
+    position: absolute;
+    left: 23%;
+    top: 2%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#lblPLATFORM {
+    position: absolute;
+    top: 2%;
+    left: 28%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+}
+
+#lblLog_in {
+    position: absolute;
+    top: 2.7%;
+    right: 25.7%;
+    color: orange;
+}
+
+#btnSign_up {
+    position: absolute;
+    top: 2%;
+    right: 21%;
+    background-color: orange;
+}
+
+//----------END HEADER----------------------------
+
+//------------PRODUCT LIST---------------------------
+#Productlist_div {
+    background-color: white;
+    width: 60%;
+    min-height: 40px;
+    margin: auto;
+    line-height: 25px;
+    padding-left: 2.8%;
+    padding-top: .5%;
+}
+
+#lblProduct_list {
+    position: absolute;
+    top: 8%;
+    left: 23%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+//-----------------------END PRODUCT LIST---------------------------
+
+//-------------------SORT DIV----------------------------
+#Sort_div {
+    border: groove;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    width: 60%;
+    min-height: 45px;
+    margin: auto;
+    line-height: 25px;
+    padding-left: 2.8%;
+    padding-top: 1.2%;
+}
+
+#txt_search {
+    position: absolute;
+    right: 24.3%;
+}
+
+#Search_btn {
+    position: absolute;
+    right: 21%;
+}
+
+#Btn_A {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_B {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_C {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_D {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_E {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_F {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_G {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_H {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_I {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_J {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_K {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_L {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_M {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_N {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_O {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_P {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_Q {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_R {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_S {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_T {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_U {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_V {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_W {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_X {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_Y {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+#Btn_Z {
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(2, 34, 2);
+    color: white;
+    font-size: large;
+}
+
+//----------------------------END SORT DIV-----------------------------
+
+#Product_container_div {
+    background-color: white;
+    width: 60%;
+    min-height: 300px;
+    margin: auto;
+}
+
+#About_div {
+    background-color: rgb(34, 24, 24);
+    width: 100%;
+    min-height: 150px;
+}
+
+#Footer_div {
+    background-color: rgb(7, 2, 2);
+    width: 100%;
+    min-height: 100px;
+}
+//----------Product Container-------------------
+//-------------------------ROW1----------------
+#Row1 {
+    background-color: white;
+    width: 100%;
+    min-height: 92px;
+    margin-top: 1%;
+}
+
+#Row1_Col1_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 0.6%;
+}
+
+#Row1_Col2_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR1C2 {
+    position: absolute;
+    left: 31%;
+    top: 25%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R1C2 {
+    position: absolute;
+    left: 31%;
+    top: 28%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+#Row1_Col3_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#Row1_Col4_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR1C4 {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R1C4 {
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#Row1_Col5_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#Row1_Col6_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR1C6 {
+    position: absolute;
+    left: 69.5%;
+    top: 25%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R1C6 {
+    position: absolute;
+    left: 69.5%;
+    top: 28%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+//--------------------END ROW1---------------------------
+
+//---------------------ROW2-----------------------------------------
+#Row2 {
+    background-color: white;
+    width: 100%;
+    min-height: 92px;
+    margin-top: 1%;
+}
+
+#Row2_Col1_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 0.6%;
+}
+
+#Row2_Col2_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR2C2 {
+    position: absolute;
+    left: 31%;
+    top: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R2C2 {
+    position: absolute;
+    left: 31%;
+    top: 43%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+#Row2_Col3_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#Row2_Col4_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR2C4 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R2C4 {
+    position: absolute;
+    left: 50%;
+    top: 43%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#Row2_Col5_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#Row2_Col6_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR2C6 {
+    position: absolute;
+    left: 69.5%;
+    top: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R2C6 {
+    position: absolute;
+    left: 69.5%;
+    top: 43%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+//----------------------END ROW2-------------------------------------
+
+//----------------------ROW3-----------------------------------------
+#Row3 {
+    background-color: white;
+    width: 100%;
+    min-height: 92px;
+    margin-top: 1%;
+}
+
+#Row3_Col1_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-left: 3%;
+    margin-top: 0.6%;
+}
+
+#Row3_Col2_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR3C2 {
+    position: absolute;
+    left: 31%;
+    top: 55%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R3C2 {
+    position: absolute;
+    left: 31%;
+    top: 58%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#Row3_Col3_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#Row3_Col4_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR3C4 {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R3C4 {
+    position: absolute;
+    left: 50%;
+    top: 58%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#Row3_Col5_div {
+    border: groove;
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#Row3_Col6_div {
+    background-color: white;
+    width: 15%;
+    min-height: 92px;
+    float: left;
+    margin-right: 1%;
+    margin-top: 0.6%;
+}
+
+#lblR3C6 {
+    position: absolute;
+    left: 69.5%;
+    top: 55%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Btn_R3C6 {
+    position: absolute;
+    left: 69.5%;
+    top: 58%;
+    border: none;
+    background-color: white;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+//----------------------END ROW3-------------------------------------
+//---------------------END PRODUCT CONTAINER------------------------
+
+//------------------ABOUT DIV---------------------
+#lblPRODUCTX1 {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    left: 23%;
+    top: 73%;
+}
+
+#lblPLATFORM1 {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+    left: 28%;
+    top: 73%;
+}
+
+#Paragraph1 {
+    position: absolute;
+    color: white;
+    left: 23%;
+    top: 79%;
+}
+
+#Paragraph2 {
+    position: absolute;
+    color: white;
+    left: 23%;
+    top: 82%;
+}
+
+#Paragraph3 {
+    position: absolute;
+    color: white;
+    left: 23%;
+    top: 85%;
+}
+
+#Paragraph4 {
+    position: absolute;
+    color: white;
+    right: 21%;
+    top: 73%;
+}
+
+#Join_productXbtn {
+    position: absolute;
+    color: white;
+    right: 26%;
+    top: 77%;
+    background-color: orange;
+    border: 0cap;
+}
+
+
+//---------------------END ABOUT DIV------------------------------
+
+//-----------------------FOOTER DIV----------------------------------------
+#Footer_div_p1 {
+    position: absolute;
+    color: white;
+    right: 37%;
+    top: 94%;
+}
+
+
+//-----------------------END FOOTER DIV-------------------------------------------------

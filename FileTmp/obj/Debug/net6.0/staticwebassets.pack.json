@@ -9,12 +9,24 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/css/products.css",
+      "PackagePath": "staticwebassets/css/products.css"
+    },
+    {
       "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/images/image1.jpg",
+      "PackagePath": "staticwebassets/images/image1.jpg"
+    },
+    {
+      "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/images/image1.png",
+      "PackagePath": "staticwebassets/images/image1.png"
     },
     {
       "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/js/site.js",
@@ -11811,6 +11823,10 @@
     {
       "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/lib/uploadjs/file-upload.min.js",
       "PackagePath": "staticwebassets/lib/uploadjs/file-upload.min.js"
+    },
+    {
+      "Id": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/scss/products.scss",
+      "PackagePath": "staticwebassets/scss/products.scss"
     },
     {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.FileTmp.Microsoft.AspNetCore.StaticWebAssets.props",

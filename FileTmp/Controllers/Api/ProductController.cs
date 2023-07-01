@@ -33,9 +33,9 @@ namespace FileTmp.Controllers.Api
         }
 
         [AllowAnonymous]
-        [HttpGet("GetProductByLetter")]
+        [HttpGet("GetProductsByLetter")]
 
-        public async Task<List<Product>> GetProductByLetter(string letter)
+        public async Task<List<Product>> GetProductsByLetter(string letter)
         {
             return _productService.GetProductsByFirstLetter(letter);
 

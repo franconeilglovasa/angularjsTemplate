@@ -1,0 +1,153 @@
+﻿<div ng-app="app-products" ng-controller="productsAppController as vm">
+    <div id="Header_div" class="clearfix">
+        <label id="lblPRODUCTX" for="html">PRODUCTX</label>
+        <label id="lblPLATFORM" for="html">PLATFORM</label>
+        <label id="lblLog_in" for="html">LOGIN</label>
+        <button id="btnSign_up" onclick="alert('Signing up......')">SIGN UP</button>
+
+    </div>
+
+
+    <div id="Productlist_div">
+        <label id="lblProduct_list" for="html">Product List</label>
+    </div>
+    <div id="Sort_div">
+        Sort:
+        <button type="button" id="Btn_A" ng-click="vm.getProductsByLetter('A')">A</button>
+        <button type="button" id="Btn_B" ng-click="vm.getProductsByLetter('B')">B</button>
+        <button type="button" id="Btn_C" onclick="alert('Sorting C')">C</button>
+        <button type="button" id="Btn_D" onclick="alert('Sorting D')">D</button>
+        <button type="button" id="Btn_E" onclick="alert('Sorting E')">E</button>
+        <button type="button" id="Btn_F" onclick="alert('Sorting F')">F</button>
+        <button type="button" id="Btn_G" onclick="alert('Sorting G')">G</button>
+        <button type="button" id="Btn_H" onclick="alert('Sorting H')">H</button>
+        <button type="button" id="Btn_I" onclick="alert('Sorting I')">I</button>
+        <button type="button" id="Btn_J" onclick="alert('Sorting J')">J</button>
+        <button type="button" id="Btn_K" onclick="alert('Sorting K')">K</button>
+        <button type="button" id="Btn_L" onclick="alert('Sorting L')">L</button>
+        <button type="button" id="Btn_M" onclick="alert('Sorting M')">M</button>
+        <button type="button" id="Btn_N" onclick="alert('Sorting N')">N</button>
+        <button type="button" id="Btn_O" onclick="alert('Sorting O')">O</button>
+        <button type="button" id="Btn_P" onclick="alert('Sorting P')">P</button>
+        <button type="button" id="Btn_Q" onclick="alert('Sorting Q')">Q</button>
+        <button type="button" id="Btn_R" onclick="alert('Sorting R')">R</button>
+        <button type="button" id="Btn_S" onclick="alert('Sorting S')">S</button>
+        <button type="button" id="Btn_T" onclick="alert('Sorting T')">T</button>
+        <button type="button" id="Btn_U" onclick="alert('Sorting U')">U</button>
+        <button type="button" id="Btn_V" onclick="alert('Sorting V')">V</button>
+        <button type="button" id="Btn_W" onclick="alert('Sorting W')">W</button>
+        <button type="button" id="Btn_X" onclick="alert('Sorting X')">X</button>
+        <button type="button" id="Btn_Y" onclick="alert('Sorting Y')">Y</button>
+        <button type="button" id="Btn_Z" onclick="alert('Sorting Z')">Z</button>
+        <input type="text" id="txt_search" name="txt_search">
+        <button type="button" id="Search_btn" onclick="alert('Searching......')">Search</button>
+    </div>
+
+    <div id="Product_container_div">
+        <div id="Row1" ng-if="vm.products.length > 1">
+            <div ng-repeat="product in vm.products">
+                <div id="Row1_Col1_div">
+                    <img src="~/images/image1.jpg" alt="Paris" style="width:100%" loading="lazy">
+                </div>
+                <div id="Row1_Col2_div">
+                    <label id="lblR1C2" for="html">{{product.name}}</label>
+                    <button type="button" id="Btn_R1C2" ng-click="vm.buyProductModal(product)" data-toggle="modal" data-target="#buyproductModal">Buy product</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="buyproductModal" tabindex="-1" role="dialog" aria-labelledby="buyproductModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="buyproductModalLabel">{{vm.chosenProduct.name}}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Product Id:{{vm.chosenProduct.name}} <br />
+                    Product Name: {{vm.chosenProduct.id}}
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="About_div">
+        <label id="lblPRODUCTX1" for="html">PRODUCTX</label>
+        <label id="lblPLATFORM1" for="html">PLATFORM</label>
+        <button type="button" id="Join_productXbtn" onclick="alert('JOINING PRODUCTX........')">
+            JOIN PRODUCX
+        </button>
+        <p id="Paragraph1">Lorem ipsum dolor sit amet, consectetur</p>
+        <p id="Paragraph2">adipicing elit, sed do eiusmod tempur incidident</p>
+        <p id="Paragraph3">ut labore et dolore magna aliqua.</p>
+        <p id="Paragraph4">Follow us in our social media accounts.</p>
+    </div>
+    <div id="Footer_div">
+        <p id="Footer_div_p1">@@2023 PRODUCTXPLATFORM. All rigths reserved.</p>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script>var app = angular.module("app-products", []);
+
+        app.controller("productsAppController", function ($scope, $http, $timeout, $window) {
+            var vm = this;
+
+            vm.products = [];
+            vm.chosenProduct = {};
+
+            vm.getProductsByLetter = function (letter) {
+
+                console.log(letter);
+                return;
+                vm.isBusy = true;
+                var apiUrl = "/Api/Product/GetProductsByLetter/?letter=" + letter;
+
+                $http({
+                    method: 'get',
+                    headers: {
+                        "Content-Type": "application/json",
+
+                    },
+                    url: apiUrl
+                })
+
+                    .then(function (response) {
+                        vm.errorMessage = null;
+                        vm.successMessage = "Success";
+
+                        vm.products = response.data;
+    
+
+                    }, function (err) {
+                        alert("Failed to load products");
+ 
+                        vm.errorMessage = "Failed to get Products";
+                        vm.successMessage = null;
+                    }).finally(function () {
+                        vm.isBusy = false;
+                    });
+            }
+
+            vm.buyProductModal = function (product) {
+                vm.chosenProduct = product;
+            }
+
+
+        });</script>
+}

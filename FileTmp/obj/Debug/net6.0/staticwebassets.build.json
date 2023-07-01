@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6r870qeEkEnUK89jgyQEtDHOwMFFgHfuLNqtBiCR7ik=",
+  "Hash": "Zk78qpuCC1XJBS3MT7yp2ea7CxAXrfOicWfJccw2/OU=",
   "Source": "FileTmp",
   "BasePath": "_content/FileTmp",
   "Mode": "Default",
@@ -68,6 +68,23 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
+      "Identity": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/css/products.css",
+      "SourceId": "FileTmp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/",
+      "BasePath": "_content/FileTmp",
+      "RelativePath": "css/products.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/products.css"
+    },
+    {
       "Identity": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/css/site.css",
       "SourceId": "FileTmp",
       "SourceType": "Discovered",
@@ -100,6 +117,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/images/image1.jpg",
+      "SourceId": "FileTmp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/",
+      "BasePath": "_content/FileTmp",
+      "RelativePath": "images/image1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/image1.jpg"
+    },
+    {
+      "Identity": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/images/image1.png",
+      "SourceId": "FileTmp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/",
+      "BasePath": "_content/FileTmp",
+      "RelativePath": "images/image1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/image1.png"
     },
     {
       "Identity": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/js/site.js",
@@ -50233,6 +50284,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/uploadjs/file-upload.min.js"
+    },
+    {
+      "Identity": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/scss/products.scss",
+      "SourceId": "FileTmp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/franco/Projects/angularjsTemplate/FileTmp/wwwroot/",
+      "BasePath": "_content/FileTmp",
+      "RelativePath": "scss/products.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scss/products.scss"
     }
   ]
 }

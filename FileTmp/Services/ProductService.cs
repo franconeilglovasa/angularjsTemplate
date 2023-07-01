@@ -42,7 +42,7 @@ namespace FileTmp.Services
         }
 
         public List<Product> GetProductsByFirstLetter(string letter) {
-            var products = _context.Products.Where(x => x.Name.StartsWith(letter))
+            var products = _context.Products.Where(x => x.Name.StartsWith(letter, StringComparison.OrdinalIgnoreCase))
                 .ToList();
             return products;
 
