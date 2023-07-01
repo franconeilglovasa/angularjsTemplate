@@ -11,6 +11,7 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.19",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
           "Microsoft.EntityFrameworkCore": "6.0.19",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.19",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.19",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.19",
           "NSwag.AspNetCore": "13.17.0"
